@@ -1,1 +1,1 @@
-local a=game:GetService("ReplicatedStorage").Systems.Character.Game.Sprinting;local b=require(a)b.StaminaLoss=0
+local a=game:GetService("ReplicatedStorage")while task.wait()do local b=a:FindFirstChild("Systems")and a.Systems:FindFirstChild("Character")and a.Systems.Character:FindFirstChild("Game")and a.Systems.Character.Game:FindFirstChild("Sprinting")if b then local c,d=pcall(require,b)if c and d and d.StaminaLoss~=0 then d.StaminaLoss=0 end end end
