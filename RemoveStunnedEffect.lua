@@ -1,0 +1,1 @@
+local a=workspace:WaitForChild("Players"):WaitForChild("Killers"):WaitForChild("1x1x1x1")local b=a:WaitForChild("SpeedMultipliers")while wait()do local c=b:FindFirstChild("Stunned")if c then c:Destroy()end end
